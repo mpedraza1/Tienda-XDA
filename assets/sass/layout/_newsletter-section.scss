@@ -1,9 +1,33 @@
 form{
     background-color: $backGroundColorNewsSection;
     color:$fontColorNewsSection;
-    width: 37%;
+    width: 40%;
     height: 10rem;
-    padding: 2rem;
-   
+    align-items: center;
     
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.suscribe{
+    text-align: center;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+    color: $colorMain;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+}
+.contenedor{
+    padding-left: 1rem;
+
+}
+.form__button{
+    height: 10rem;
+    background-color:$fontColorNewsSection;
+    display: flex;
+    align-items: center;
+    width: 2.5rem;
+    justify-content: center;
+
 }

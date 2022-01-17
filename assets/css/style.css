@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+.menu {
+  float: right;
+  padding-right: 5rem;
+  padding-top: 0.5rem;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+li a:hover:not(.active) {
+  background-color: #bbbbbb;
+}
+
+.active {
+  color: white;
+  background-color: #0C0910;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  height: 4rem;
+  padding-top: 1.5rem;
+}
+
+.titulo-main {
+  margin: 3rem;
+  width: 15rem;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  text-align: start;
+  margin: 3rem;
+  margin-bottom: 1rem;
+  width: 14rem;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  background-color: white;
+  height: 2rem;
+  width: 7rem;
+  margin: 3rem;
+  margin-top: 1rem;
+}
+
+img {
+  width: 60%;
+}
+
+form {
+  background-color: #0C0910;
+  color: white;
+  width: 37%;
+  height: 10rem;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    width: 860px;
+  }
+}
+.row {
+  display: grid;
+  grid-template: repeat(12, fr);
+}
+
+/*# sourceMappingURL=style.css.map */

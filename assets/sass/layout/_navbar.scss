@@ -1,0 +1,37 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  li {
+    float: left;
+  }
+  .menu{
+      float:right;
+      padding-right: 5rem;
+      padding-top: 0.5rem;
+  }
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: $ralewayMenu;
+    font-weight: $weightBold;
+  }
+  li a:hover:not(.active) {
+    background-color: rgb(187, 187, 187);
+    
+  }
+  .active {
+    color:$fontColorNewsSection;
+    background-color:$backGroundColorNav;
+    font-family: $oldstandardLogo;
+    font-weight: $weightBold;
+    height: 4rem;
+    padding-top: 1.5rem;
+}

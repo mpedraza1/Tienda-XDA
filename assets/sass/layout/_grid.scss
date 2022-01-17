@@ -1,0 +1,9 @@
+@media only screen and (max-width:900px){
+    .navbar{
+        width: 860px;
+    }
+}
+.row{
+    display:grid;
+    grid-template: repeat(12, fr);
+}
